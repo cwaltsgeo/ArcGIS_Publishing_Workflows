@@ -6,17 +6,17 @@ A collection of minimal, practical Jupyter notebooks for publishing Image Servic
 
 ```
 .
-├── arcgis/                          # Core, reusable publishing workflows
-│   ├── publish_raster_collection.ipynb   # Publish an image collection (mosaic dataset) by reference
-│   └── publish_raster_dataset.ipynb      # Publish a standalone raster dataset by reference
+├── arcgis/                                 # Core, reusable publishing workflows
+│   ├── publish_raster_collection.ipynb     # Publish an image collection (mosaic dataset) by reference
+│   └── publish_raster_dataset.ipynb        # Publish a standalone raster dataset by reference
 │
-├── examples/                        # Advanced, real-world publishing pipelines
-│   └── publish_tempo.ipynb               # End-to-end TEMPO NO₂ multidimensional image service
+├── examples/                               # Advanced, real-world publishing pipelines
+│   └── publish_tempo.ipynb                 # End-to-end TEMPO NO₂ multidimensional image service
 │
-├── .env.example                     # Environment variable template
-├── pyproject.toml                   # Python project / dependency definition
-├── CONTRIBUTING.md                  # Guidelines for contributing
-└── LICENSE                          # MIT License
+├── .env.example                            # Environment variable template
+├── pyproject.toml                          # Python project / dependency definition
+└── CONTRIBUTING.md                         # Guidelines for contributing
+```
 
 ## Workflows
 
@@ -46,7 +46,7 @@ uv sync
 Or with `pip`:
 
 ```bash
-pip install arcgis>=2.4.3 python-dotenv>=1.2.2
+pip install arcgis python-dotenv ipykernel
 ```
 
 ### 3. Configure environment variables
